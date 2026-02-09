@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, ".", "");
   return {
-    base: "/LiShdemo/", // ✅ GitHub Pages 專案頁必加（repo 名）
+    base: "/LiShdemo/", // GitHub Pages 專案頁必加（repo 名）
     server: {
       port: 3000,
       host: "0.0.0.0",
@@ -22,3 +22,4 @@ export default defineConfig(({ mode }) => {
     },
   };
 });
+
